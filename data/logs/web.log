@@ -1,0 +1,1776 @@
+2026-10-25 00:15:58,076 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-25 00:15:58,077 INFO   on the network: http://192.168.1.10:8086/
+2026-10-25 00:15:58,077 INFO   on the network: http://DEVFORSURE:8086/
+2026-10-25 00:16:39,589 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-25 00:16:39,590 INFO   on the network: http://192.168.1.10:8086/
+2026-10-25 00:16:39,590 INFO   on the network: http://DEVFORSURE:8086/
+2026-10-25 13:09:01,739 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-25 13:09:01,740 INFO   on the network: http://192.168.1.10:8086/
+2026-10-25 13:09:01,740 INFO   on the network: http://DEVFORSURE:8086/
+2026-10-26 11:03:57,607 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-26 11:03:57,608 INFO   on the network: http://192.168.1.10:8086/
+2026-10-26 11:03:57,608 INFO   on the network: http://DEVFORSURE:8086/
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 64402)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 466, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 456, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 468, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 455, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 65066)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 466, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 456, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 468, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 455, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-10-26 16:03:34,806 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-26 16:03:34,807 INFO   on the network: http://192.168.1.10:8086/
+2026-10-26 16:03:34,807 INFO   on the network: http://DEVFORSURE:8086/
+2026-10-26 16:04:16,345 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-26 16:04:16,347 INFO   on the network: http://192.168.1.10:8086/
+2026-10-26 16:04:16,347 INFO   on the network: http://DEVFORSURE:8086/
+2026-10-26 16:04:53,169 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-26 16:04:53,169 INFO   on the network: http://192.168.1.10:8086/
+2026-10-26 16:04:53,169 INFO   on the network: http://DEVFORSURE:8086/
+2026-10-26 16:05:29,228 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-26 16:05:29,229 INFO   on the network: http://192.168.1.10:8086/
+2026-10-26 16:05:29,229 INFO   on the network: http://DEVFORSURE:8086/
+2026-10-26 16:05:59,878 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-26 16:05:59,879 INFO   on the network: http://192.168.1.10:8086/
+2026-10-26 16:05:59,879 INFO   on the network: http://DEVFORSURE:8086/
+2026-10-26 16:06:24,698 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-26 16:06:24,700 INFO   on the network: http://192.168.1.10:8086/
+2026-10-26 16:06:24,700 INFO   on the network: http://DEVFORSURE:8086/
+2026-10-26 16:13:31,532 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-26 16:13:31,534 INFO   on the network: http://192.168.1.10:8086/
+2026-10-26 16:13:31,534 INFO   on the network: http://DEVFORSURE:8086/
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 55196)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 539, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 529, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 541, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 528, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 64454)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 539, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 529, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 541, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 528, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 63872)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 539, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 529, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 541, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 528, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-10-26 16:57:24,029 INFO PDF WB2610005 cycles 1 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610005_cycle_1.pdf
+2026-10-26 16:57:54,980 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-26 16:57:54,980 INFO   on the network: http://192.168.1.10:8086/
+2026-10-26 16:57:54,981 INFO   on the network: http://DEVFORSURE:8086/
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61371)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 542, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 532, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 544, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 531, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51453)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 542, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 532, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 544, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 531, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 58211)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 542, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 532, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 544, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 531, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59825)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 542, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 532, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 544, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 531, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 57193)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 542, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 532, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 544, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 531, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51974)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 542, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 532, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 544, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 531, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-10-26 17:10:09,002 INFO PDF WB2610005 cycles 1-2 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610005_cycle_1-2.pdf
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 60542)
+Exception occurred during processing of request from ('127.0.0.1', 61535)
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 53137)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 542, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 542, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 532, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+  File "T:\DevForsure\live balance v2\app\web.py", line 532, in _send
+    self.wfile.write(body)
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+  File "T:\DevForsure\live balance v2\app\web.py", line 542, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+  File "T:\DevForsure\live balance v2\app\web.py", line 532, in _send
+    self.wfile.write(body)
+
+During handling of the above exception, another exception occurred:
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+  File "T:\DevForsure\live balance v2\app\web.py", line 544, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+  File "T:\DevForsure\live balance v2\app\web.py", line 531, in _send
+    self.end_headers()
+
+During handling of the above exception, another exception occurred:
+
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 544, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 531, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+----------------------------------------
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 544, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 531, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+----------------------------------------
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 54397)
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 536, in do_GET
+    importlib.reload(report)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 131, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 866, in _exec
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "T:\DevForsure\live balance v2\app\report.py", line 96, in <module>
+    class BatchReport:
+  File "T:\DevForsure\live balance v2\app\report.py", line 102, in BatchReport
+    nothing_added: list["Skipped"] = field(default_factory=list)  # presses that added no tablet
+                                     ^^^^^
+NameError: name 'field' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 60097)
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 536, in do_GET
+    importlib.reload(report)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 131, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 866, in _exec
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "T:\DevForsure\live balance v2\app\report.py", line 96, in <module>
+    class BatchReport:
+  File "T:\DevForsure\live balance v2\app\report.py", line 102, in BatchReport
+    nothing_added: list["Skipped"] = field(default_factory=list)  # presses that added no tablet
+                                     ^^^^^
+NameError: name 'field' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 53278)
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 536, in do_GET
+    importlib.reload(report)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 131, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 866, in _exec
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "T:\DevForsure\live balance v2\app\report.py", line 96, in <module>
+    class BatchReport:
+  File "T:\DevForsure\live balance v2\app\report.py", line 102, in BatchReport
+    nothing_added: list["Skipped"] = field(default_factory=list)  # presses that added no tablet
+                                     ^^^^^
+NameError: name 'field' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 64823)
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 536, in do_GET
+    importlib.reload(report)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 131, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 866, in _exec
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "T:\DevForsure\live balance v2\app\report.py", line 96, in <module>
+    class BatchReport:
+  File "T:\DevForsure\live balance v2\app\report.py", line 102, in BatchReport
+    nothing_added: list["Skipped"] = field(default_factory=list)  # presses that added no tablet
+                                     ^^^^^
+NameError: name 'field' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59335)
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 536, in do_GET
+    importlib.reload(report)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 131, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 866, in _exec
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "T:\DevForsure\live balance v2\app\report.py", line 96, in <module>
+    class BatchReport:
+  File "T:\DevForsure\live balance v2\app\report.py", line 102, in BatchReport
+    nothing_added: list["Skipped"] = field(default_factory=list)  # presses that added no tablet
+                                     ^^^^^
+NameError: name 'field' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51191)
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 536, in do_GET
+    importlib.reload(report)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 131, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 866, in _exec
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "T:\DevForsure\live balance v2\app\report.py", line 96, in <module>
+    class BatchReport:
+  File "T:\DevForsure\live balance v2\app\report.py", line 102, in BatchReport
+    nothing_added: list["Skipped"] = field(default_factory=list)  # presses that added no tablet
+                                     ^^^^^
+NameError: name 'field' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 55119)
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 536, in do_GET
+    importlib.reload(report)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 131, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 866, in _exec
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "T:\DevForsure\live balance v2\app\report.py", line 96, in <module>
+    class BatchReport:
+  File "T:\DevForsure\live balance v2\app\report.py", line 102, in BatchReport
+    nothing_added: list["Skipped"] = field(default_factory=list)  # presses that added no tablet
+                                     ^^^^^
+NameError: name 'field' is not defined
+----------------------------------------
+2026-10-26 17:13:39,735 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-26 17:13:39,736 INFO   on the network: http://192.168.1.10:8086/
+2026-10-26 17:13:39,737 INFO   on the network: http://DEVFORSURE:8086/
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 56777)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 548, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 538, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 550, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 537, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 65504)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 548, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 538, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 550, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 537, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-10-26 17:59:03,297 INFO PDF WB2610005 cycles 1-2-3-4-5 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610005_cycle_1-2-3-4-5.pdf
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 55695)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 548, in do_GET
+    return self._send((LIVE_DIR / "live.jpg").read_bytes(), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 538, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 550, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 537, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-10-26 18:40:05,120 INFO PDF WB2610005 cycles 8 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610005_cycle_8.pdf
+2026-10-26 18:58:20,564 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-26 18:58:20,566 INFO   on the network: http://192.168.1.10:8086/
+2026-10-26 18:58:20,566 INFO   on the network: http://DEVFORSURE:8086/
+2026-10-27 11:34:51,764 INFO PDF WB2610005 cycles 1 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610005_cycle_1.pdf
+2026-10-28 14:29:11,507 INFO PDF AP2610006 cycles 1 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_1.pdf
+2026-10-28 15:25:35,685 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-28 15:25:35,686 INFO   on the network: http://192.168.1.10:8086/
+2026-10-28 15:25:35,686 INFO   on the network: http://DEVFORSURE:8086/
+2026-10-28 15:51:43,107 INFO PDF AP2610006 cycles 1 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_1.pdf
+2026-10-28 15:53:07,471 INFO PDF AP2610006 cycles 1 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_1.pdf
+2026-10-28 15:54:03,329 INFO PDF AP2610006 cycles 1 at position 2 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_1.pdf
+2026-10-28 15:57:12,841 INFO PDF AP2610006 cycles 1 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_1.pdf
+2026-10-28 16:03:51,186 INFO PDF WB2610005 cycles 6 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610005_cycle_6.pdf
+2026-10-28 16:05:15,259 INFO PDF WB2610005 cycles 6 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610005_cycle_6.pdf
+2026-10-28 16:05:28,376 INFO PDF WB2610005 cycles 6 at position 2 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610005_cycle_6.pdf
+2026-10-28 16:05:46,061 INFO PDF WB2610005 cycles 6 at position 3 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610005_cycle_6.pdf
+2026-10-28 16:07:04,339 INFO PDF AP2610006 cycles 1 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_1.pdf
+2026-10-28 16:09:06,789 INFO PDF AP2610006 cycles 1 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_1.pdf
+2026-10-28 16:31:38,281 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-28 16:31:38,284 INFO   on the network: http://192.168.1.10:8086/
+2026-10-28 16:31:38,284 INFO   on the network: http://DEVFORSURE:8086/
+2026-10-28 16:31:54,529 INFO PDF AP2610006 cycles 1 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_1.pdf
+2026-10-28 16:35:23,827 INFO PDF WB2610004 cycles 3-4-5 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610004_cycle_3-4-5.pdf
+2026-10-28 16:37:31,748 INFO PDF AP2610006 cycles 1 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_1.pdf
+2026-10-28 16:56:19,242 INFO PDF AP2610006 cycles 2 at position 2 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_2.pdf
+2026-10-28 16:56:44,945 INFO PDF AP2610006 cycles 2 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_2.pdf
+2026-10-28 18:10:02,350 INFO PDF AP2610006 cycles 2 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_2.pdf
+2026-10-28 18:11:03,974 INFO PDF AP2610006 cycles 1-2 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_1-2.pdf
+2026-10-28 18:11:27,943 INFO PDF AP2610006 cycles 1-2 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_1-2.pdf
+2026-10-28 18:12:45,382 INFO PDF WB2610005 cycles 1-2-3 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610005_cycle_1-2-3.pdf
+2026-10-29 16:29:36,260 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-29 16:29:36,262 INFO   on the network: http://192.168.1.10:8086/
+2026-10-29 16:29:36,262 INFO   on the network: http://DEVFORSURE:8086/
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 55007)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 648, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 636, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 650, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 635, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 58010)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 648, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 636, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 650, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 635, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 60018)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 648, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 636, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 650, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 635, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-10-29 17:28:00,915 INFO PDF AP2610006 (Centre) cycles 3 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_3.pdf
+2026-10-29 17:28:13,659 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-29 17:28:13,661 INFO   on the network: http://192.168.1.10:8086/
+2026-10-29 17:28:13,661 INFO   on the network: http://DEVFORSURE:8086/
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59747)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 648, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 636, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 650, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 635, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-10-29 17:29:30,749 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-29 17:29:30,750 INFO   on the network: http://192.168.1.10:8086/
+2026-10-29 17:29:30,751 INFO   on the network: http://DEVFORSURE:8086/
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61812)
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59988)
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 654, in do_GET
+    return self._send(json.dumps(live_status(scale)).encode(), "application/json")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 638, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-10-30 16:12:06,745 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-30 16:12:06,745 INFO   on the network: http://192.168.1.10:8086/
+2026-10-30 16:12:06,745 INFO   on the network: http://DEVFORSURE:8086/
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 53126)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 650, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 638, in _send
+    self.wfile.write(body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 652, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 637, in _send
+    self.end_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-10-30 16:17:54,731 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-30 16:17:54,731 INFO   on the network: http://192.168.1.10:8086/
+2026-10-30 16:17:54,732 INFO   on the network: http://DEVFORSURE:8086/
+2026-10-30 16:25:19,015 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-30 16:25:19,017 INFO   on the network: http://192.168.1.10:8086/
+2026-10-30 16:25:19,017 INFO   on the network: http://DEVFORSURE:8086/
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 50260)
+Traceback (most recent call last):
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 654, in do_GET
+    return self._send(json.dumps(live_status(scale)).encode(), "application/json")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 638, in _send
+    self.wfile.write(body)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-10-30 17:29:39,202 INFO PDF AP2610006 (Centre) cycles 4 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_AP2610006_cycle_4.pdf
+2026-10-30 17:32:39,759 INFO DELETED BR2606082 (Centre) cycle 1 (2026-10-30T16:54:04.997, 194 presses) from 127.0.0.1
+2026-10-30 17:47:43,135 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-30 17:47:43,136 INFO   on the network: http://192.168.1.10:8086/
+2026-10-30 17:47:43,136 INFO   on the network: http://DEVFORSURE:8086/
+2026-10-30 17:48:20,390 INFO PDF BR2606082 (Centre) cycles 1 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_BR2606082_cycle_1.pdf
+2026-10-30 17:49:29,869 INFO PDF BR2606082 (Centre) cycles 1 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_BR2606082_cycle_1.pdf
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 52758)
+Traceback (most recent call last):
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 654, in do_GET
+    return self._send(json.dumps(live_status(scale)).encode(), "application/json")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 638, in _send
+    self.wfile.write(body)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59020)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 650, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 638, in _send
+    self.wfile.write(body)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 652, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 637, in _send
+    self.end_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61610)
+Exception occurred during processing of request from ('127.0.0.1', 49433)
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 54295)
+Traceback (most recent call last):
+Exception occurred during processing of request from ('127.0.0.1', 52079)
+  File "T:\DevForsure\live balance v2\app\web.py", line 650, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 638, in _send
+    self.wfile.write(body)
+  File "T:\DevForsure\live balance v2\app\web.py", line 650, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 638, in _send
+    self.wfile.write(body)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+  File "T:\DevForsure\live balance v2\app\web.py", line 650, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 650, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+
+During handling of the above exception, another exception occurred:
+
+  File "T:\DevForsure\live balance v2\app\web.py", line 638, in _send
+    self.wfile.write(body)
+  File "T:\DevForsure\live balance v2\app\web.py", line 638, in _send
+    self.wfile.write(body)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+
+During handling of the above exception, another exception occurred:
+
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+
+During handling of the above exception, another exception occurred:
+
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+Traceback (most recent call last):
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+
+During handling of the above exception, another exception occurred:
+
+  File "T:\DevForsure\live balance v2\app\web.py", line 652, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 637, in _send
+    self.end_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 652, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+  File "T:\DevForsure\live balance v2\app\web.py", line 637, in _send
+    self.end_headers()
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+  File "T:\DevForsure\live balance v2\app\web.py", line 652, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+----------------------------------------
+  File "T:\DevForsure\live balance v2\app\web.py", line 637, in _send
+    self.end_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "T:\DevForsure\live balance v2\app\web.py", line 652, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "T:\DevForsure\live balance v2\app\web.py", line 637, in _send
+    self.end_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+----------------------------------------
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 55287)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 650, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 638, in _send
+    self.wfile.write(body)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 652, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 637, in _send
+    self.end_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51366)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 650, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 638, in _send
+    self.wfile.write(body)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 652, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 637, in _send
+    self.end_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 52581)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 650, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 638, in _send
+    self.wfile.write(body)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 652, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 637, in _send
+    self.end_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-10-31 16:52:07,059 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-31 16:52:07,060 INFO   on the network: http://192.168.1.10:8086/
+2026-10-31 16:52:07,060 INFO   on the network: http://DEVFORSURE:8086/
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 64600)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 654, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 642, in _send
+    self.wfile.write(body)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 656, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 641, in _send
+    self.end_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-10-31 19:17:16,722 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-10-31 19:17:16,724 INFO   on the network: http://192.168.1.10:8086/
+2026-10-31 19:17:16,724 INFO   on the network: http://DEVFORSURE:8086/
+2026-11-02 09:30:43,824 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-11-02 09:30:43,826 INFO   on the network: http://192.168.1.10:8086/
+2026-11-02 09:30:43,826 INFO   on the network: http://DEVFORSURE:8086/
+2026-11-02 10:26:55,101 INFO PDF WB2610010 (Centre) cycles 1 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_1.pdf
+2026-11-02 10:28:52,800 INFO PDF WB2610010 (Centre) cycles 1 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_1.pdf
+2026-11-02 13:33:42,529 INFO PDF WB2610010 (Centre) cycles 2 at position 2 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_2.pdf
+2026-11-02 13:35:00,986 INFO PDF WB2610010 (Centre) cycles 1 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_1.pdf
+2026-11-02 13:35:18,393 INFO PDF WB2610010 (Centre) cycles 2 at position 2 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_2.pdf
+2026-11-02 13:35:36,260 INFO PDF WB2610010 (Centre) cycles 2 at position 2 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_2.pdf
+2026-11-02 13:35:55,482 INFO PDF WB2610010 (Centre) cycles 3 at position 3 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_3.pdf
+2026-11-02 15:04:31,523 INFO PDF WB2610010 (Centre) cycles 4-6-7 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_4-6-7.pdf
+2026-11-03 14:13:22,533 INFO PDF WB2610010 (Centre) cycles 8-12-14-15-16-17 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_8-12-14-15-16-17.pdf
+2026-11-03 14:13:51,960 INFO PDF WB2610010 (Centre) cycles 13-14-15 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_13-14-15.pdf
+2026-11-03 14:14:41,350 INFO PDF WB2610010 (Centre) cycles 9-10-16-17 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_9-10-16-17.pdf
+2026-11-03 14:15:08,775 INFO PDF WB2610010 (Centre) cycles 16-17 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_16-17.pdf
+2026-11-03 15:45:49,482 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-11-03 15:45:49,483 INFO   on the network: http://192.168.1.10:8086/
+2026-11-03 15:45:49,483 INFO   on the network: http://DEVFORSURE:8086/
+2026-11-03 16:32:02,286 INFO PDF WB2610010 (Centre) cycles 18 at position 3 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_18.pdf
+2026-11-03 16:33:06,289 INFO PDF WB2610010 (Centre) cycles 18 at position 3 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_18.pdf
+2026-11-03 18:37:42,319 INFO PDF WB2610010 (Centre) cycles 19-20-21 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_19-20-21.pdf
+2026-11-04 10:44:48,575 INFO PDF WB2610010 (Centre) cycles 22-23 at position 2 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_22-23.pdf
+2026-11-04 10:46:12,625 INFO PDF WB2610010 (Centre) cycles 22-23 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_22-23.pdf
+2026-11-04 15:43:30,817 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-11-04 15:43:30,818 INFO   on the network: http://192.168.1.10:8086/
+2026-11-04 15:43:30,818 INFO   on the network: http://DEVFORSURE:8086/
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 60362)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 654, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 642, in _send
+    self.wfile.write(body)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 656, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 641, in _send
+    self.end_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-11-04 16:25:18,474 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-11-04 16:25:18,474 INFO   on the network: http://192.168.1.10:8086/
+2026-11-04 16:25:18,474 INFO   on the network: http://DEVFORSURE:8086/
+2026-11-04 16:33:47,597 INFO PDF WB2610010 (Centre) cycles 24-25-26 at position 3 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_24-25-26.pdf
+2026-11-04 16:45:50,596 INFO PDF WB2610010 (Centre) cycles 1-2-3 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_1-2-3.pdf
+2026-11-04 16:58:44,014 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-11-04 16:58:44,014 INFO   on the network: http://192.168.1.10:8086/
+2026-11-04 16:58:44,014 INFO   on the network: http://DEVFORSURE:8086/
+2026-11-04 17:08:02,755 INFO DELETED AP2610002 (Centre) cycle 1 (2026-10-31T16:28:33.696, 4 presses) from 127.0.0.1
+2026-11-04 17:12:31,184 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-11-04 17:12:31,185 INFO   on the network: http://192.168.1.10:8086/
+2026-11-04 17:12:31,185 INFO   on the network: http://DEVFORSURE:8086/
+2026-11-04 17:42:47,996 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-11-04 17:42:47,997 INFO   on the network: http://192.168.1.10:8086/
+2026-11-04 17:42:47,997 INFO   on the network: http://DEVFORSURE:8086/
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61234)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 654, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 642, in _send
+    self.wfile.write(body)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 656, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 641, in _send
+    self.end_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-11-04 18:04:48,823 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-11-04 18:04:48,824 INFO   on the network: http://192.168.1.10:8086/
+2026-11-04 18:04:48,824 INFO   on the network: http://DEVFORSURE:8086/
+2026-11-04 18:31:20,015 INFO PDF WB2610010 (Centre) cycles 27 at position 1 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_27.pdf
+2026-11-04 19:03:06,943 INFO PDF WB2610010 (Centre) cycles 28 at position 3 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_28.pdf
+2026-11-04 19:04:33,112 INFO PDF WB2610010 (Centre) cycles 27 at position 3 -> T:\DevForsure\live balance v2\data\reports\batch_WB2610010_cycle_27.pdf
+2026-11-05 15:27:42,653 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-11-05 15:27:42,654 INFO   on the network: http://192.168.1.10:8086/
+2026-11-05 15:27:42,654 INFO   on the network: http://DEVFORSURE:8086/
+2026-11-05 16:00:54,897 INFO Product names: 187 batches from \\Home-pc\f\BATCHDTL\BATCHDTL.csv
+2026-11-05 16:00:56,167 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-11-05 16:00:56,168 INFO   on the network: http://192.168.1.10:8086/
+2026-11-05 16:00:56,168 INFO   on the network: http://DEVFORSURE:8086/
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59570)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 686, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 674, in _send
+    self.wfile.write(body)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 688, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 673, in _send
+    self.end_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-11-05 19:25:03,413 WARNING Product names not read from \\Home-pc\f\BATCHDTL\BATCHDTL.csv ([Errno 2] No such file or directory: '\\\\Home-pc\\f\\BATCHDTL\\BATCHDTL.csv'): using 187 names from the last good read
+2026-11-06 16:13:30,208 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-11-06 16:13:30,209 INFO   on the network: http://192.168.1.10:8086/
+2026-11-06 16:13:30,209 INFO   on the network: http://DEVFORSURE:8086/
+2026-11-06 16:13:32,908 WARNING Product names not read from \\Home-pc\f\BATCHDTL\BATCHDTL.csv ([Errno 2] No such file or directory: '\\\\Home-pc\\f\\BATCHDTL\\BATCHDTL.csv'): using 0 names from the last good read
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 58357)
+Traceback (most recent call last):
+  File "T:\DevForsure\live balance v2\app\web.py", line 686, in do_GET
+    return self._send(read_live(scale.live_dir / "live.jpg"), "image/jpeg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 674, in _send
+    self.wfile.write(body)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "T:\DevForsure\live balance v2\app\web.py", line 688, in do_GET
+    return self._send(b"no live picture", "text/plain", 404)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\DevForsure\live balance v2\app\web.py", line 673, in _send
+    self.end_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+2026-11-07 14:04:10,982 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-11-07 14:04:10,984 INFO   on the network: http://192.168.1.10:8086/
+2026-11-07 14:04:10,984 INFO   on the network: http://DEVFORSURE:8086/
+2026-11-07 14:04:13,822 INFO Product names: 188 batches from \\Home-pc\f\BATCHDTL\BATCHDTL.csv
+2026-11-10 16:12:48,651 INFO Batch reports: http://localhost:8086/  (Ctrl+C to stop)
+2026-11-10 16:12:48,653 INFO   on the network: http://192.168.1.10:8086/
+2026-11-10 16:12:48,653 INFO   on the network: http://DEVFORSURE:8086/
+2026-11-10 16:12:49,949 WARNING Product names not read from \\Home-pc\f\BATCHDTL\BATCHDTL.csv ([Errno 2] No such file or directory: '\\\\Home-pc\\f\\BATCHDTL\\BATCHDTL.csv'): using 0 names from the last good read
